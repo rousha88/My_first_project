@@ -1,0 +1,55 @@
+.container1 {
+  padding: 20px 5%;
+}
+.section-title {
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 0.8;
+  margin-bottom: 10px;
+}
+.categories .category-item {
+  background-color: #f2ebef;
+  border-radius: 4px;
+  flex: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.categories .category-item a {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0%;
+  font-size: 14px;
+  font-weight: 500;
+}
+.categories .category-item .category-title {
+  font-family: "Leckerli One", cursive;
+}
+
+.categories .category-item .category-image {
+  width: 100%;
+  transition: transform ease 0.2s;
+}
+
+.categories .category-item .category-image:hover {
+  transform: scale(1.1);
+}
+
+/*! categories start  */
+.categories {
+  margin: 10px 1%;
+}
+
+.categories .category-list {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+/*! categories end  */
