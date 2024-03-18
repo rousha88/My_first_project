@@ -1,16 +1,41 @@
-/*! global css  */
+
 @import url(css);
-
-/*! layout  */
 @import url(footer.css);
-
 @import url(slider.css);
 @import url(header.css);
 @import url(categories.css);
 @import url(product.css);
 
-@import url(pages/account.css);
-@import url(pages/cart.css);
-@import url(pages/single-product.css);
-@import url(pages/blog.css);
-@import url(pages/single-blog.css);
+/* base responsive  */
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    max-width: 350px;
+  }
+}
+
+
